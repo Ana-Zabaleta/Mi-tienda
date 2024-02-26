@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+  font-family: Roboto, sans-serif;
+}
+#image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container {
+  margin: 5px;
+}
+
+.image-container img {
+  width: 200px;
+  height: 300px;
+}
+
+.image-container h3 {
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
